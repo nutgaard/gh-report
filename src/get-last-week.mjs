@@ -11,6 +11,40 @@ const reporters = {
     'terminal': terminalReporter,
     'markdown': markdownReporter
 };
+if (argv.help || argv.h) {
+    console.log();
+    console.log(`
+${chalk.hex('#f43b47')('GH-Report')}
+Automatically look for PR merges the last week for a given team.
+
+${chalk.hex('#40943a')('zx src/get-last-week.mjs myorg/myteam')}
+
+Options:
+    -l, --limit:    Extend the number of PRs checked for each repo. 
+                    Default: 10
+             
+    -d, --since:    Set the cutoff for which PRs er relevant.
+                    Default: now() - 1w
+                    Example: 2021-09-15
+                 
+    -r, --reporter: Set the reporter format
+                    Default: terminal
+                    Options: terminal, markdown
+                    
+Examples:
+    Specify the cutoff for relevant PRs 
+    ${chalk.hex('#40943a')('zx src/get-last-week.mjs myorg/myteam --since 2021-09-01')}
+    
+    Increase the limit when fetching PRs for github 
+    ${chalk.hex('#40943a')('zx src/get-last-week.mjs myorg/myteam --limit 20')}
+    
+    Print the report in markdown 
+    ${chalk.hex('#40943a')('zx src/get-last-week.mjs myorg/myteam --reporter markdown')}
+    `.trim());
+    console.log();
+    console.log();
+    process.exit(0);
+}
 const options = {
     useMock: argv.mock ?? false,
     limit: argv.l ?? argv.limit ?? 10,

@@ -20,4 +20,14 @@ Options:
     -r, --reporter: Set the reporter format
                     Default: terminal
                     Options: terminal, markdown
+                    
+Examples:
+    Specify the cutoff for relevant PRs 
+    zx src/get-last-week.mjs myorg/myteam --since 2021-09-01
+    
+    Increase the limit when fetching PRs for github 
+    zx src/get-last-week.mjs myorg/myteam --limit 20
+    
+    Print the report in markdown 
+    zx src/get-last-week.mjs myorg/myteam --reporter markdown
 ```
