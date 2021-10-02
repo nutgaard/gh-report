@@ -6,6 +6,9 @@ export function report(repositories, extra, reporter) {
         .flatMap((repo) => reporter.repository(repo, extra));
 
     const out = `
+${header}
+\u0001
+
 ${repos.join('\n')}
 
 \u0001
