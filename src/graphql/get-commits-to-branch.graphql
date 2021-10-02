@@ -1,0 +1,35 @@
+query get_team_commits($organization: String!, $team: String!, $since: GitTimestamp!) {
+  organization(login: $organization) {
+    team(slug: $team) {
+      repositories {
+        nodes {
+          name
+          isArchived
+          master: ref(qualifiedName: "refs/heads/master") {
+            ...branchdata
+          }
+          dev: ref(qualifiedName: "refs/heads/dev") {
+            ...branchdata
+          }
+        }
+      }
+    }
+  }
+}
+fragment branchdata on Ref {
+  id
+  name
+  target {
+    ... on Commit {
+      history(since: $since) {
+        totalCount
+        nodes {
+          authoredDate
+          author { name }
+          messageHeadline
+          messageBody
+        }
+      }
+    }
+  }
+}

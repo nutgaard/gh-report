@@ -1,0 +1,1073 @@
+{
+  "data": {
+    "organization": {
+      "team": {
+        "repositories": {
+          "nodes": [
+            {
+              "name": "jenkins-dsl-scripts",
+              "isArchived": false,
+              "master": {
+                "id": "MDM6UmVmMTEzMDU1Nzg2OnJlZnMvaGVhZHMvbWFzdGVy",
+                "name": "master",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              },
+              "dev": null
+            },
+            {
+              "name": "modiapersonoversikt",
+              "isArchived": false,
+              "master": {
+                "id": "MDM6UmVmMTIyMzExNjgyOnJlZnMvaGVhZHMvbWFzdGVy",
+                "name": "master",
+                "target": {
+                  "history": {
+                    "totalCount": 1,
+                    "nodes": [
+                      {
+                        "authoredDate": "2021-09-28T06:25:36Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "Merge pull request #1624 from myorg/dev",
+                        "messageBody": "[PROD][KAIZEN-0] skru av nais-security hack"
+                      }
+                    ]
+                  }
+                }
+              },
+              "dev": {
+                "id": "MDM6UmVmMTIyMzExNjgyOnJlZnMvaGVhZHMvZGV2",
+                "name": "dev",
+                "target": {
+                  "history": {
+                    "totalCount": 1,
+                    "nodes": [
+                      {
+                        "authoredDate": "2021-09-28T06:28:21Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "Merge pull request #1619 from myorg/fix/warnings-cleanup",
+                        "messageBody": "[KAIZEN-0] rette opp i warnings i frontend"
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "name": "modiaeventdistribution",
+              "isArchived": false,
+              "master": {
+                "id": "MDM6UmVmMTQwNjc2OTY2OnJlZnMvaGVhZHMvbWFzdGVy",
+                "name": "master",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              },
+              "dev": {
+                "id": "MDM6UmVmMTQwNjc2OTY2OnJlZnMvaGVhZHMvZGV2",
+                "name": "dev",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              }
+            },
+            {
+              "name": "modiaflatefs",
+              "isArchived": false,
+              "master": {
+                "id": "MDM6UmVmMTQwODQwMzkyOnJlZnMvaGVhZHMvbWFzdGVy",
+                "name": "master",
+                "target": {
+                  "history": {
+                    "totalCount": 1,
+                    "nodes": [
+                      {
+                        "authoredDate": "2021-09-27T10:05:55Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "Merge pull request #31 from myorg/dev",
+                        "messageBody": "[PROD][KAIZEN-0] oppdatere frontend-image"
+                      }
+                    ]
+                  }
+                }
+              },
+              "dev": {
+                "id": "MDM6UmVmMTQwODQwMzkyOnJlZnMvaGVhZHMvZGV2",
+                "name": "dev",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              }
+            },
+            {
+              "name": "nav-faker",
+              "isArchived": false,
+              "master": {
+                "id": "MDM6UmVmMTQyNDI0NjUxOnJlZnMvaGVhZHMvbWFzdGVy",
+                "name": "master",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              },
+              "dev": null
+            },
+            {
+              "name": "modiabrukerdialog",
+              "isArchived": true,
+              "master": {
+                "id": "MDM6UmVmMTQyNDQ0MjAzOnJlZnMvaGVhZHMvbWFzdGVy",
+                "name": "master",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              },
+              "dev": null
+            },
+            {
+              "name": "henvendelsesarkiv-2",
+              "isArchived": false,
+              "master": {
+                "id": "MDM6UmVmMTQ0MTIwODk2OnJlZnMvaGVhZHMvbWFzdGVy",
+                "name": "master",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              },
+              "dev": {
+                "id": "MDM6UmVmMTQ0MTIwODk2OnJlZnMvaGVhZHMvZGV2",
+                "name": "dev",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              }
+            },
+            {
+              "name": "modia-soap-til-rest-proxy",
+              "isArchived": false,
+              "master": {
+                "id": "MDM6UmVmMTQ3NjM2ODQ1OnJlZnMvaGVhZHMvbWFzdGVy",
+                "name": "master",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              },
+              "dev": {
+                "id": "MDM6UmVmMTQ3NjM2ODQ1OnJlZnMvaGVhZHMvZGV2",
+                "name": "dev",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              }
+            },
+            {
+              "name": "modiacontextholder",
+              "isArchived": false,
+              "master": {
+                "id": "MDM6UmVmMTQ5NzUzNTY2OnJlZnMvaGVhZHMvbWFzdGVy",
+                "name": "master",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              },
+              "dev": {
+                "id": "MDM6UmVmMTQ5NzUzNTY2OnJlZnMvaGVhZHMvZGV2",
+                "name": "dev",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              }
+            },
+            {
+              "name": "mininnboks",
+              "isArchived": false,
+              "master": {
+                "id": "MDM6UmVmMTUyMzc4ODg1OnJlZnMvaGVhZHMvbWFzdGVy",
+                "name": "master",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              },
+              "dev": {
+                "id": "MDM6UmVmMTUyMzc4ODg1OnJlZnMvaGVhZHMvZGV2",
+                "name": "dev",
+                "target": {
+                  "history": {
+                    "totalCount": 2,
+                    "nodes": [
+                      {
+                        "authoredDate": "2021-10-01T08:49:27Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "Merge pull request #127 from myorg/fix/steng-sto",
+                        "messageBody": "[KAIZEN-0] legge til to-stegs nedstenging av mininnboks"
+                      },
+                      {
+                        "authoredDate": "2021-09-30T11:05:38Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "[KAIZEN-0] legge til to-stegs nedstenging av mininnboks",
+                        "messageBody": "Introduserer en ny feature-toggle: \"modia.innboks.steng-sto\" som stenger ned muligheten for å sende inn meldinger fra mininnboks.\n\n\"modia.innboks.bruker-salesforce-dialoger\" fungerer som tidligere, og hindrer innsending, samt slutter å vise meldinger."
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "name": "mininnboks-api",
+              "isArchived": false,
+              "master": {
+                "id": "MDM6UmVmMTUyMzc4OTMyOnJlZnMvaGVhZHMvbWFzdGVy",
+                "name": "master",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              },
+              "dev": {
+                "id": "MDM6UmVmMTUyMzc4OTMyOnJlZnMvaGVhZHMvZGV2",
+                "name": "dev",
+                "target": {
+                  "history": {
+                    "totalCount": 2,
+                    "nodes": [
+                      {
+                        "authoredDate": "2021-10-01T08:48:55Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "Merge pull request #88 from myorg/fix/steng-sto",
+                        "messageBody": "[KAIZEN-0] legge til featuretoggle \"steng-sto\""
+                      },
+                      {
+                        "authoredDate": "2021-09-30T11:30:34Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "[KAIZEN-0] legge til featuretoggle \"steng-sto\"",
+                        "messageBody": "sender muligheten til å sende inn svar/spørsmål fra mininnboks.\n\nVi gjør denne sperren i backend også for å sikre at ingen greier å snike seg rundt sperren i frontend"
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "name": "internarbeidsflatedecorator",
+              "isArchived": false,
+              "master": {
+                "id": "MDM6UmVmMTU4Njk5MTQ3OnJlZnMvaGVhZHMvbWFzdGVy",
+                "name": "master",
+                "target": {
+                  "history": {
+                    "totalCount": 3,
+                    "nodes": [
+                      {
+                        "authoredDate": "2021-09-27T13:08:06Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "Merge pull request #276 from myorg/dev",
+                        "messageBody": "[PROD][KAIZEN-0] bruke unprivileded nginx image"
+                      },
+                      {
+                        "authoredDate": "2021-09-27T12:43:52Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "[KAIZEN-0] ikke inkludere port i redirect for dekoratøren",
+                        "messageBody": ""
+                      },
+                      {
+                        "authoredDate": "2021-09-27T10:12:03Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "[KAIZEN-0] legge til 404 fallback om fil ikke finnes",
+                        "messageBody": ""
+                      }
+                    ]
+                  }
+                }
+              },
+              "dev": {
+                "id": "MDM6UmVmMTU4Njk5MTQ3OnJlZnMvaGVhZHMvZGV2",
+                "name": "dev",
+                "target": {
+                  "history": {
+                    "totalCount": 2,
+                    "nodes": [
+                      {
+                        "authoredDate": "2021-09-27T12:43:52Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "[KAIZEN-0] ikke inkludere port i redirect for dekoratøren",
+                        "messageBody": ""
+                      },
+                      {
+                        "authoredDate": "2021-09-27T10:12:03Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "[KAIZEN-0] legge til 404 fallback om fil ikke finnes",
+                        "messageBody": ""
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "name": "modiapersonoversikt-innstillinger",
+              "isArchived": false,
+              "master": {
+                "id": "MDM6UmVmMTc5NTUyMDQ3OnJlZnMvaGVhZHMvbWFzdGVy",
+                "name": "master",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              },
+              "dev": {
+                "id": "MDM6UmVmMTc5NTUyMDQ3OnJlZnMvaGVhZHMvZGV2",
+                "name": "dev",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              }
+            },
+            {
+              "name": "modiapersonoversikt-notifikasjon",
+              "isArchived": false,
+              "master": {
+                "id": "MDM6UmVmMTg0NTY0MzE0OnJlZnMvaGVhZHMvbWFzdGVy",
+                "name": "master",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              },
+              "dev": null
+            },
+            {
+              "name": "modiapersonoversikt-skrivestotte",
+              "isArchived": false,
+              "master": {
+                "id": "MDM6UmVmMTg2ODIzNDExOnJlZnMvaGVhZHMvbWFzdGVy",
+                "name": "master",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              },
+              "dev": {
+                "id": "MDM6UmVmMTg2ODIzNDExOnJlZnMvaGVhZHMvZGV2",
+                "name": "dev",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              }
+            },
+            {
+              "name": "navspa",
+              "isArchived": false,
+              "master": {
+                "id": "MDM6UmVmMTk4NjM3NDEyOnJlZnMvaGVhZHMvbWFzdGVy",
+                "name": "master",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              },
+              "dev": null
+            },
+            {
+              "name": "henvendelse-les",
+              "isArchived": false,
+              "master": {
+                "id": "MDM6UmVmMjA5NTQ2MjY4OnJlZnMvaGVhZHMvbWFzdGVy",
+                "name": "master",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              },
+              "dev": {
+                "id": "MDM6UmVmMjA5NTQ2MjY4OnJlZnMvaGVhZHMvZGV2",
+                "name": "dev",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              }
+            },
+            {
+              "name": "btn-brukermelding-producer",
+              "isArchived": true,
+              "master": {
+                "id": "MDM6UmVmMjE2Nzc5NjQyOnJlZnMvaGVhZHMvbWFzdGVy",
+                "name": "master",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              },
+              "dev": null
+            },
+            {
+              "name": "btn-common",
+              "isArchived": true,
+              "master": {
+                "id": "MDM6UmVmMjE2OTg1MzI2OnJlZnMvaGVhZHMvbWFzdGVy",
+                "name": "master",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              },
+              "dev": null
+            },
+            {
+              "name": "modiapersonoversikt-api",
+              "isArchived": false,
+              "master": {
+                "id": "MDM6UmVmMjE4NTEyMDU4OnJlZnMvaGVhZHMvbWFzdGVy",
+                "name": "master",
+                "target": {
+                  "history": {
+                    "totalCount": 7,
+                    "nodes": [
+                      {
+                        "authoredDate": "2021-10-01T08:15:40Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "Merge pull request #440 from myorg/dev",
+                        "messageBody": "[PROD]fix/persondata"
+                      },
+                      {
+                        "authoredDate": "2021-09-30T09:54:12Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "Merge pull request #437 from myorg/fix/persondata",
+                        "messageBody": "fix/persondata"
+                      },
+                      {
+                        "authoredDate": "2021-09-28T14:30:53Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "Merge pull request #439 from myorg/dev",
+                        "messageBody": "[PROD] [KAIZEN-0] lage saf-saker endepunkt"
+                      },
+                      {
+                        "authoredDate": "2021-09-28T14:08:56Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "[KAIZEN-0] lage saf-saker endepunkt for henting av alle saf saker",
+                        "messageBody": ""
+                      },
+                      {
+                        "authoredDate": "2021-09-28T06:30:28Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "Merge pull request #436 from myorg/dev",
+                        "messageBody": "[PROD][OPP-1384] Retry-mekanisme på å hente kodeverk"
+                      },
+                      {
+                        "authoredDate": "2021-09-27T07:55:08Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "[OPP-1387] logge persondata feil til tjenestekallloggene",
+                        "messageBody": "gjør det enklere å feilsøke i fremtiden"
+                      },
+                      {
+                        "authoredDate": "2021-09-27T07:39:16Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "[OPP-1387] sjekke behov for ekstra kall til pdl",
+                        "messageBody": "om listen av tredjepartsperson er tom gjør vi ikke kall til PDL da det ikke er nødvendig,\nog vil i tillegg gi oss en feilmelding"
+                      }
+                    ]
+                  }
+                }
+              },
+              "dev": {
+                "id": "MDM6UmVmMjE4NTEyMDU4OnJlZnMvaGVhZHMvZGV2",
+                "name": "dev",
+                "target": {
+                  "history": {
+                    "totalCount": 4,
+                    "nodes": [
+                      {
+                        "authoredDate": "2021-09-30T09:54:12Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "Merge pull request #437 from myorg/fix/persondata",
+                        "messageBody": "fix/persondata"
+                      },
+                      {
+                        "authoredDate": "2021-09-28T14:08:56Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "[KAIZEN-0] lage saf-saker endepunkt for henting av alle saf saker",
+                        "messageBody": ""
+                      },
+                      {
+                        "authoredDate": "2021-09-27T07:55:08Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "[OPP-1387] logge persondata feil til tjenestekallloggene",
+                        "messageBody": "gjør det enklere å feilsøke i fremtiden"
+                      },
+                      {
+                        "authoredDate": "2021-09-27T07:39:16Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "[OPP-1387] sjekke behov for ekstra kall til pdl",
+                        "messageBody": "om listen av tredjepartsperson er tom gjør vi ikke kall til PDL da det ikke er nødvendig,\nog vil i tillegg gi oss en feilmelding"
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "name": "textparser",
+              "isArchived": false,
+              "master": {
+                "id": "MDM6UmVmMjM3MzgzMDY5OnJlZnMvaGVhZHMvbWFzdGVy",
+                "name": "master",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              },
+              "dev": null
+            },
+            {
+              "name": "modiapersonoversikt-api-ytelsetest",
+              "isArchived": false,
+              "master": {
+                "id": "MDM6UmVmMjQ0NjE2Njk1OnJlZnMvaGVhZHMvbWFzdGVy",
+                "name": "master",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              },
+              "dev": null
+            },
+            {
+              "name": "dittnav-eventer-modia",
+              "isArchived": false,
+              "master": {
+                "id": "MDM6UmVmMjUxNTkyMDE1OnJlZnMvaGVhZHMvbWFzdGVy",
+                "name": "master",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              },
+              "dev": null
+            },
+            {
+              "name": "rate-limiter",
+              "isArchived": false,
+              "master": {
+                "id": "MDM6UmVmMjU2MTg1NTQwOnJlZnMvaGVhZHMvbWFzdGVy",
+                "name": "master",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              },
+              "dev": {
+                "id": "MDM6UmVmMjU2MTg1NTQwOnJlZnMvaGVhZHMvZGV2",
+                "name": "dev",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              }
+            },
+            {
+              "name": "tag-input",
+              "isArchived": false,
+              "master": {
+                "id": "MDM6UmVmMjU3ODc4Njk0OnJlZnMvaGVhZHMvbWFzdGVy",
+                "name": "master",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              },
+              "dev": null
+            },
+            {
+              "name": "modiapersonoversikt-draft",
+              "isArchived": false,
+              "master": {
+                "id": "MDM6UmVmMjU5ODc0NTI0OnJlZnMvaGVhZHMvbWFzdGVy",
+                "name": "master",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              },
+              "dev": {
+                "id": "MDM6UmVmMjU5ODc0NTI0OnJlZnMvaGVhZHMvZGV2",
+                "name": "dev",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              }
+            },
+            {
+              "name": "modiabrukerdialog-redirect",
+              "isArchived": false,
+              "master": {
+                "id": "MDM6UmVmMjY2NzY1MjU0OnJlZnMvaGVhZHMvbWFzdGVy",
+                "name": "master",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              },
+              "dev": {
+                "id": "MDM6UmVmMjY2NzY1MjU0OnJlZnMvaGVhZHMvZGV2",
+                "name": "dev",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              }
+            },
+            {
+              "name": "modiapersonoversikt-chat",
+              "isArchived": true,
+              "master": {
+                "id": "MDM6UmVmMjczMjA4MDQ3OnJlZnMvaGVhZHMvbWFzdGVy",
+                "name": "master",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              },
+              "dev": {
+                "id": "MDM6UmVmMjczMjA4MDQ3OnJlZnMvaGVhZHMvZGV2",
+                "name": "dev",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              }
+            },
+            {
+              "name": "btn-chat-monorepo",
+              "isArchived": true,
+              "master": {
+                "id": "MDM6UmVmMjczODEwMTI2OnJlZnMvaGVhZHMvbWFzdGVy",
+                "name": "master",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              },
+              "dev": null
+            },
+            {
+              "name": "abac-modia",
+              "isArchived": false,
+              "master": null,
+              "dev": null
+            },
+            {
+              "name": "modialogin",
+              "isArchived": false,
+              "master": {
+                "id": "MDM6UmVmMzQzNDEwMzA3OnJlZnMvaGVhZHMvbWFzdGVy",
+                "name": "master",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              },
+              "dev": {
+                "id": "MDM6UmVmMzQzNDEwMzA3OnJlZnMvaGVhZHMvZGV2",
+                "name": "dev",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              }
+            },
+            {
+              "name": "henvendelse-api",
+              "isArchived": false,
+              "master": {
+                "id": "MDM6UmVmMzY0NDg2NTIxOnJlZnMvaGVhZHMvbWFzdGVy",
+                "name": "master",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              },
+              "dev": {
+                "id": "MDM6UmVmMzY0NDg2NTIxOnJlZnMvaGVhZHMvZGV2",
+                "name": "dev",
+                "target": {
+                  "history": {
+                    "totalCount": 15,
+                    "nodes": [
+                      {
+                        "authoredDate": "2021-10-01T06:33:11Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "[KAIZEN-0] verifiserer at temakode er i samsvar",
+                        "messageBody": ""
+                      },
+                      {
+                        "authoredDate": "2021-10-01T06:23:30Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "[KAIZEN-0] slette oppsett og config-filer for sak/pdl",
+                        "messageBody": ""
+                      },
+                      {
+                        "authoredDate": "2021-10-01T06:08:39Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "[KAIZEN-0] slette integrasjoner vi ikke trenger",
+                        "messageBody": ""
+                      },
+                      {
+                        "authoredDate": "2021-09-30T11:00:10Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "[KAIZEN-0] gjøre pdl og sak til ikke-kritiske avhengighgeter",
+                        "messageBody": "disse kan saneres da saf sannsynligvis holder som integrasjonpunkt for validering av saker fra SF"
+                      },
+                      {
+                        "authoredDate": "2021-09-30T10:37:55Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "[KAIZEN-0] oppdatere selftester mot graphql endepunkt",
+                        "messageBody": "graphql skal alltid returnere noe, med eventuelle feil i ett eget \"error\" feil."
+                      },
+                      {
+                        "authoredDate": "2021-09-30T09:36:54Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "[KAIZEN-0] byttet til å bruke saf for sjekking av sakstilhørighet",
+                        "messageBody": ""
+                      },
+                      {
+                        "authoredDate": "2021-09-30T09:35:56Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "[KAIZEN-0] la til saf integrasjon for uthenting av saker",
+                        "messageBody": "SF bruker SAF, så vi må ha samme kilde som dem."
+                      },
+                      {
+                        "authoredDate": "2021-09-29T16:15:35Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "[KAIZEN-0] fikse bug med pdl integrasjon",
+                        "messageBody": "navnet på variablen må stemme overens med graphql-querien"
+                      },
+                      {
+                        "authoredDate": "2021-09-29T15:59:26Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "Merge pull request #6 from myorg/fix/verify-sak",
+                        "messageBody": "fix/verify sak"
+                      },
+                      {
+                        "authoredDate": "2021-09-29T14:44:24Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "[KAIZEN-0] la til selftest for sak",
+                        "messageBody": ""
+                      },
+                      {
+                        "authoredDate": "2021-09-29T14:30:59Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "[KAIZEN-0] la til selftest for pdl",
+                        "messageBody": ""
+                      },
+                      {
+                        "authoredDate": "2021-09-29T10:42:26Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "[KAIZEN-0] oppdaterte testene for å sjekke journalføring",
+                        "messageBody": ""
+                      },
+                      {
+                        "authoredDate": "2021-09-29T09:55:27Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "[KAIZEN-0] legge til verifikasjon av eierskap av sak",
+                        "messageBody": "ved journalføring hentes sak og henvendelse ut, om aktørId for sak og henvendelse stemmer overens antar vi at ting er i orden. Hvis ikke henter vi ut fullstendig liste fra PDL slik at vi kan sjekke om det har vært endringer i aktørIden"
+                      },
+                      {
+                        "authoredDate": "2021-09-29T09:52:39Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "[KAIZEN-0] legge til sak-integrasjon",
+                        "messageBody": "vi må kunne hente ut en saks eierskap for å gjøre verifiseringen"
+                      },
+                      {
+                        "authoredDate": "2021-09-29T09:52:09Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "[KAIZEN-0] legge til pdl-integrasjon",
+                        "messageBody": "vi må kunne hente ut alle brukers aktørIder for å sikre eierskap om henvendelse har utdatert info"
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "name": "henvendelse-kafka-migrator",
+              "isArchived": false,
+              "master": {
+                "id": "MDM6UmVmMzg0MjI1NDg2OnJlZnMvaGVhZHMvbWFzdGVy",
+                "name": "master",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              },
+              "dev": {
+                "id": "MDM6UmVmMzg0MjI1NDg2OnJlZnMvaGVhZHMvZGV2",
+                "name": "dev",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              }
+            },
+            {
+              "name": "henvendelse-api-dialogv1",
+              "isArchived": false,
+              "master": {
+                "id": "MDM6UmVmMzg3NDM4MjM4OnJlZnMvaGVhZHMvbWFzdGVy",
+                "name": "master",
+                "target": {
+                  "history": {
+                    "totalCount": 3,
+                    "nodes": [
+                      {
+                        "authoredDate": "2021-10-01T12:59:23Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "Merge pull request #10 from myorg/dev",
+                        "messageBody": "[PROD] [KAIZEN-0] legge til pesys som godkjent konsument"
+                      },
+                      {
+                        "authoredDate": "2021-10-01T11:39:04Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "[KAIZEN-0] legger til gosys/pesys som godkjente systembrukere",
+                        "messageBody": ""
+                      },
+                      {
+                        "authoredDate": "2021-10-01T10:06:09Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "[KAIZEN-0] legge til pesys",
+                        "messageBody": ""
+                      }
+                    ]
+                  }
+                }
+              },
+              "dev": {
+                "id": "MDM6UmVmMzg3NDM4MjM4OnJlZnMvaGVhZHMvZGV2",
+                "name": "dev",
+                "target": {
+                  "history": {
+                    "totalCount": 2,
+                    "nodes": [
+                      {
+                        "authoredDate": "2021-10-01T11:39:04Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "[KAIZEN-0] legger til gosys/pesys som godkjente systembrukere",
+                        "messageBody": ""
+                      },
+                      {
+                        "authoredDate": "2021-10-01T10:06:09Z",
+                        "author": {
+                          "name": "Authro Name"
+                        },
+                        "messageHeadline": "[KAIZEN-0] legge til pesys",
+                        "messageBody": ""
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "name": "info-team-personoversikt",
+              "isArchived": false,
+              "master": {
+                "id": "MDM6UmVmNDAxNjYwNDA4OnJlZnMvaGVhZHMvbWFzdGVy",
+                "name": "master",
+                "target": {
+                  "history": {
+                    "totalCount": 0,
+                    "nodes": []
+                  }
+                }
+              },
+              "dev": null
+            }
+          ]
+        }
+      }
+    }
+  }
+}

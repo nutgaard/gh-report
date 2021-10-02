@@ -1,0 +1,17 @@
+{
+  "name": "gh-report",
+  "version": "0.0.1-beta",
+  "scripts": {
+    "start": "zx src/get-last-week.mjs",
+    "dev": "chokidar './src/**/*.*' -c 'zx src/get-last-week.mjs --mock --since 2021-09-27 -r markdown' --initial "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "emoji-strip": "^1.0.1",
+    "strip-ansi": "^7.0.1"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^3.0.0"
+  }
+}

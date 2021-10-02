@@ -1,0 +1,31 @@
+query get_team_prs($organization: String!, $team: String!, $limit: Int!) {
+    organization(login: $organization) {
+        team(slug: $team) {
+            repositories {
+                nodes {
+                    name
+                    master: pullRequests(
+                        last: $limit
+                        baseRefName: "master"
+                        states: MERGED
+                    ) {
+                        ...prdata
+                    }
+                    dev: pullRequests(last: $limit, baseRefName: "dev", states: MERGED) {
+                        ...prdata
+                    }
+                }
+            }
+        }
+    }
+}
+fragment prdata on PullRequestConnection {
+    nodes {
+        title
+        bodyText
+        mergedAt
+        author {
+            login
+        }
+    }
+}
