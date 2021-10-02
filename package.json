@@ -9,6 +9,7 @@
   "license": "ISC",
   "dependencies": {
     "emoji-strip": "^1.0.1",
+    "mime-db": "^1.50.0",
     "strip-ansi": "^7.0.1"
   },
   "devDependencies": {
