@@ -1,3 +1,4 @@
+import { chalk } from 'zx';
 import emojiStrip from "emoji-strip";
 import { main, secondary, accent } from '../utils/colors.mjs'
 

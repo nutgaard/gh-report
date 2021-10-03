@@ -1,3 +1,5 @@
+import { $ } from 'zx';
+
 export async function isLoggedIn(options) {
     if (options.useMock) {
         return true;

@@ -1,14 +1,18 @@
 {
   "name": "@nutgaard/gh-report",
-  "version": "0.0.1-beta",
+  "version": "0.0.1-beta-02",
   "bin": {
-    "gh-report": "src/index.mjs"
+    "gh-report": "dist/index.mjs"
   },
   "files": [
-    "src"
+    "dist"
   ],
   "scripts": {
-    "dev": "chokidar './src/**/*.*' -c 'zx src/index.mjs --mock --since 2021-09-27 -r markdown' --initial "
+    "dev": "chokidar './src/**/*.*' -c 'zx src/index.mjs --mock --since 2021-09-27 -r markdown' --initial ",
+    "build:clean": "rm -rf ./dist",
+    "build:js": "cp -r src/ dist",
+    "build:graphql": "rm -rf dist/**/*.json",
+    "build": "npm run build:clean && npm run build:js && npm run build:graphql"
   },
   "author": "Nicklas Utgaard",
   "license": "MIT",
@@ -17,7 +21,8 @@
   },
   "dependencies": {
     "emoji-strip": "^1.0.1",
-    "strip-ansi": "^7.0.1"
+    "strip-ansi": "^7.0.1",
+    "zx": "^4.2.0"
   },
   "devDependencies": {
     "chokidar-cli": "^3.0.0"

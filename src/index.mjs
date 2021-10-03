@@ -1,4 +1,5 @@
-#!/usr/bin/env zx
+#!/usr/bin/env node
+import { $, argv, chalk } from 'zx';
 import * as GraphQL from './utils/graphql.mjs';
 import * as Reporter from './reporter/reporter.mjs';
 import * as GH from './utils/gh.mjs';
@@ -68,13 +69,16 @@ const options = {
             return terminalReporter;
         }
     })()
-}
+};
+
+(async () => {
+
 
 if (!(await GH.isLoggedIn(options))) {
     exit_error('User not logged in through `gh`-cli. Use `gh auth login` to fix');
 }
 
-const [script, orgteam] = argv._;
+const [orgteam] = argv._;
 if (!orgteam) {
     exit_error(`Need to specify team, e.g run: 'zx ${script} myorg/myteam'`);
 } else if (!orgteam.includes('/')) {
@@ -137,3 +141,4 @@ Some repositories may potentially have missing PRs because of current limit (${o
 ${potentiallyMissingPRs}
 `.trim()))
 }
+})();

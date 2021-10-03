@@ -1,3 +1,5 @@
+import { $, chalk } from 'zx';
+
 $.verbose = false;
 process.stdin.isTTY = false;
 
