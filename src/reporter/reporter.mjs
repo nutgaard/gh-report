@@ -21,7 +21,7 @@ ${header}
     const separator = reporter.separator(maxLength);
 
     return lines
-        .map((line) => line.replace('\u0000', separator))
-        .map((line) => line.replace('\u0001', doubleSeparator))
+        .flatMap((line) => line.includes('\u0000') ? separator : line)
+        .flatMap((line) => line.includes('\u0001') ? doubleSeparator : line)
         .join('\n');
 }

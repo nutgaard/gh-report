@@ -1,8 +1,5 @@
 import emojiStrip from "emoji-strip";
-
-const main = chalk.hex('#f43b47');
-const secondary = chalk.hex('#453a94');
-const accent = chalk.hex('#40943a');
+import { main, secondary, accent } from '../utils/colors.mjs'
 
 export const width = 80;
 
@@ -57,10 +54,10 @@ export default {
         return secondary(`${formatter.format(new Date(extra.since))} - ${formatter.format(new Date())}`);
     },
     separator(width) {
-        return new Array(width).fill('-').join('')
+        return [new Array(width).fill('-').join('')];
     },
     doubleSeparator(width) {
-        return new Array(width).fill('=').join('');
+        return [new Array(width).fill('=').join('')];
     },
     repository(repository, extra) {
         const master = repository.master;

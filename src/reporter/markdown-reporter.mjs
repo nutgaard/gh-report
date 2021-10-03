@@ -23,10 +23,10 @@ export default {
         return `${formatter.format(new Date(extra.since))} - ${formatter.format(new Date())}`;
     },
     separator(width) {
-        return '';
+        return [];
     },
     doubleSeparator(width) {
-        return "---";
+        return ['', '---', ''];
     },
     repository(repository, extra) {
         const master = repository.master;
@@ -54,7 +54,6 @@ export default {
 
         return [
             header,
-            chalk.cyan('\u0000'),
             ...masterLines,
             ...devLines,
             '',

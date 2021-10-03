@@ -1,12 +1,20 @@
 {
-  "name": "gh-report",
+  "name": "@nutgaard/gh-report",
   "version": "0.0.1-beta",
-  "scripts": {
-    "start": "zx src/get-last-week.mjs",
-    "dev": "chokidar './src/**/*.*' -c 'zx src/get-last-week.mjs --mock --since 2021-09-27 -r markdown' --initial "
+  "bin": {
+    "gh-report": "src/index.mjs"
   },
-  "author": "",
-  "license": "ISC",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "dev": "chokidar './src/**/*.*' -c 'zx src/index.mjs --mock --since 2021-09-27 -r markdown' --initial "
+  },
+  "author": "Nicklas Utgaard",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "emoji-strip": "^1.0.1",
     "strip-ansi": "^7.0.1"

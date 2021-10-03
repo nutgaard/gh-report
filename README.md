@@ -7,7 +7,7 @@ Simple tool to extract a report of a teams PRs since a timestamp.
 GH-Report
 Automatically look for PR merges the last week for a given team.
 
-zx src/get-last-week.mjs myorg/myteam
+zx src/index.mjs myorg/myteam
 
 Options:
     -l, --limit:    Extend the number of PRs checked for each repo. 
@@ -23,11 +23,11 @@ Options:
                     
 Examples:
     Specify the cutoff for relevant PRs 
-    zx src/get-last-week.mjs myorg/myteam --since 2021-09-01
+    zx src/index.mjs myorg/myteam --since 2021-09-01
     
     Increase the limit when fetching PRs for github 
-    zx src/get-last-week.mjs myorg/myteam --limit 20
+    zx src/index.mjs myorg/myteam --limit 20
     
     Print the report in markdown 
-    zx src/get-last-week.mjs myorg/myteam --reporter markdown
+    zx src/index.mjs myorg/myteam --reporter markdown
 ```

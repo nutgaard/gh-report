@@ -1,7 +1,8 @@
 #!/usr/bin/env zx
 import * as GraphQL from './utils/graphql.mjs';
-import * as GH from "./utils/gh.mjs";
 import * as Reporter from './reporter/reporter.mjs';
+import * as GH from './utils/gh.mjs';
+import * as Color from './utils/colors.mjs';
 import terminalReporter from './reporter/terminal-reporter.mjs';
 import markdownReporter from './reporter/markdown-reporter.mjs';
 import {exit_error} from "./utils/cli.mjs";
@@ -14,10 +15,10 @@ const reporters = {
 if (argv.help || argv.h) {
     console.log();
     console.log(`
-${chalk.hex('#f43b47')('GH-Report')}
+${Color.main('GH-Report')}
 Automatically look for PR merges the last week for a given team.
 
-${chalk.hex('#40943a')('zx src/get-last-week.mjs myorg/myteam')}
+${Color.accent('zx src/index.mjs myorg/myteam')}
 
 Options:
     -l, --limit:    Extend the number of PRs checked for each repo. 
@@ -33,18 +34,19 @@ Options:
                     
 Examples:
     Specify the cutoff for relevant PRs 
-    ${chalk.hex('#40943a')('zx src/get-last-week.mjs myorg/myteam --since 2021-09-01')}
+    ${Color.accent('zx src/index.mjs myorg/myteam --since 2021-09-01')}
     
     Increase the limit when fetching PRs for github 
-    ${chalk.hex('#40943a')('zx src/get-last-week.mjs myorg/myteam --limit 20')}
+    ${Color.accent('zx src/index.mjs myorg/myteam --limit 20')}
     
     Print the report in markdown 
-    ${chalk.hex('#40943a')('zx src/get-last-week.mjs myorg/myteam --reporter markdown')}
+    ${Color.accent('zx src/index.mjs myorg/myteam --reporter markdown')}
     `.trim());
     console.log();
     console.log();
     process.exit(0);
 }
+
 const options = {
     useMock: argv.mock ?? false,
     limit: argv.l ?? argv.limit ?? 10,
@@ -67,7 +69,11 @@ const options = {
         }
     })()
 }
-options.token = await GH.getToken(options);
+
+if (!(await GH.isLoggedIn(options))) {
+    exit_error('User not logged in through `gh`-cli. Use `gh auth login` to fix');
+}
+
 const [script, orgteam] = argv._;
 if (!orgteam) {
     exit_error(`Need to specify team, e.g run: 'zx ${script} myorg/myteam'`);
@@ -77,7 +83,7 @@ if (!orgteam) {
 const [organization, team] = orgteam.split("/");
 
 const query = GraphQL.createQuery('get-prs-to-branch', { 'SINCE': options.since });
-const result = await GraphQL.fetch(options, query, {
+const result = await GH.graphql(options, query, {
     'organization': organization,
     'team': team,
     'limit': options.limit
