@@ -2,6 +2,11 @@
 
 Simple tool to extract a report of a teams PRs since a timestamp.
 
+## Install
+```
+npm i @nutgaard/gh-report -g
+```
+
 ## Usage 
 ```
 GH-Report
