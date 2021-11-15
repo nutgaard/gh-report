@@ -1,6 +1,6 @@
 {
   "name": "@nutgaard/gh-report",
-  "version": "0.0.1-beta-02",
+  "version": "0.0.1-beta-03",
   "bin": {
     "gh-report": "dist/index.mjs"
   },

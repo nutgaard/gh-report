@@ -19,7 +19,7 @@ if (argv.help || argv.h) {
 ${Color.main('GH-Report')}
 Automatically look for PR merges the last week for a given team.
 
-${Color.accent('zx src/index.mjs myorg/myteam')}
+${Color.accent('gh-report myorg/myteam')}
 
 Options:
     -l, --limit:    Extend the number of PRs checked for each repo. 
@@ -35,13 +35,13 @@ Options:
                     
 Examples:
     Specify the cutoff for relevant PRs 
-    ${Color.accent('zx src/index.mjs myorg/myteam --since 2021-09-01')}
+    ${Color.accent('gh-report myorg/myteam --since 2021-09-01')}
     
     Increase the limit when fetching PRs for github 
-    ${Color.accent('zx src/index.mjs myorg/myteam --limit 20')}
+    ${Color.accent('gh-report myorg/myteam --limit 20')}
     
     Print the report in markdown 
-    ${Color.accent('zx src/index.mjs myorg/myteam --reporter markdown')}
+    ${Color.accent('gh-report myorg/myteam --reporter markdown')}
     `.trim());
     console.log();
     console.log();
@@ -80,9 +80,9 @@ if (!(await GH.isLoggedIn(options))) {
 
 const [orgteam] = argv._;
 if (!orgteam) {
-    exit_error(`Need to specify team, e.g run: 'zx ${script} myorg/myteam'`);
+    exit_error(`Need to specify team, e.g run: 'gh-report myorg/myteam'`);
 } else if (!orgteam.includes('/')) {
-    exit_error(`Format of team is wrong, should be run: 'zx ${script} myorg/myteam'`);
+    exit_error(`Format of team is wrong, should be run: 'gh-report myorg/myteam'`);
 }
 const [organization, team] = orgteam.split("/");
 
